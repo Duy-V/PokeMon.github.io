@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-basis: 25%;
+  padding-left: 2px;
+  background-color: beige;
+}
+
+.Pokedex {
+  text-align: center;
+}
+.Pokedex-cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Pokedex-winner {
+  color: #4caf50;
+}
+
+.Pokedex-loser {
+  color: #e91e63;
+}
+.ui.card.pokemon {
+  margin: 0 ;
+  border-radius: 20px;
+}
+img {
+  border-style: none;
+  height: 200px;
+}
+img:hover {
+  
+}
